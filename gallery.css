@@ -1,0 +1,14 @@
+.gallery{
+    background-color: pink;
+    padding:80px 0;
+}
+img{
+    max-width: 100%;
+    
+}
+.gallery img{
+    background-color: #ffffff;
+    padding:15px;
+    width:100%;
+	
+}

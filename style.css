@@ -1,0 +1,58 @@
+.Academic .box-container{
+                        display: flex;
+                        align-items: center;
+                        justify-content:space-between;
+                        flex-wrap:wrap;
+                        padding: 1rem ;
+                        padding-left: 1rem;
+                    }
+                    .Academic .box-container .box{
+                        width: 27rem;
+                        margin: 4rem 1rem;
+                        padding-left: 1rem;
+                        border-left: 0.1rem solid black;
+                        position:relative;
+                    }
+                    .Academic .box-container .box span{
+                        font-size: 1.3rem;
+                        color:black;
+                        border-radius: 5rem;
+                        padding: 5rem 2.5rem;
+                    }
+                    .Academic .box-container .box h3{
+                        font-size: 2rem;
+                        color:black;
+                        padding-top: 1.5rem;
+                    }
+                    .Academic .box-container .box p{
+                        font-size: 1.4rem;
+                        color:black;
+                        padding-top: 1rem 0;
+                    }
+                    .Academic .box-container .box i{
+                        position: absolute;
+                        top:1rem;
+                        left:-2.5rem;
+                        height: 4.6rem;
+                        width: 3.5rem;
+                        border-radius: 50%;
+                        line-height: 0rem;
+                        text-align: center;
+                        font-size: 1.5rem;
+                        color:black;
+                    }
+                    .Academic .box-container .box{
+                        width: fit-content;
+                    }
+					.box:hover{
+						transform: scale(1.03);
+						box-shadow: 0 10px 15px black;
+					}
+					.heading{
+						font-family:"Verdana, Geneva, Tahoma, sans-serif";
+						padding-left:20px;
+						transform: scale(1.03);
+						box-shadow: 0 10px 15px white;
+					}
+					
+    
